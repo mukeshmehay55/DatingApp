@@ -1,0 +1,6 @@
+1)install alertify : npm install alertify     npm install @types/alertifyjs
+2)add reference styles.css : @import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+3)add service class : typings.d.ts ==declare module 'alertifyjs'
+4) mesnsion path on json file : tsconfig.json =="src/typings.d.ts"
+5) created method (success,error,warning,message)
