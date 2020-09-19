@@ -4,3 +4,10 @@
 3)add service class : typings.d.ts ==declare module 'alertifyjs'
 4) mesnsion path on json file : tsconfig.json =="src/typings.d.ts"
 5) created method (success,error,warning,message)
+
+ROUTING
+1) routes.ts file add
+2) mension path all component 
+3) home page html add <router-outlet></router-outlet> tag
+4) logout navgate this.router.navigate(['/home']);
+5) authenicate url  ng g guard auth add into router file
